@@ -1,0 +1,2 @@
+alias sav="bash \"/uolstore/home/users/nwdq0199/Kotlin Work/sav\""
+#this allows you to just run sav anywhere without copying it into the current dir and you don't need to type bash either
