@@ -6,6 +6,7 @@ fun Application.module() {
     // invoke template configuration module here
     configureSerialization()
     configureRouting()
+    configureTemplates()
 }
 
 fun main(args: Array<String>) {
