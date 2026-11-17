@@ -31,8 +31,9 @@ fun Application.configureRouting() {
             var sideStr:String?=null
             if(diceStr?.contains("d")?:false)
             {
-                numStr=diceStr?.split("d")[0]
-                sideStr=diceStr?.split("d")[1]
+                val spl=diceStr.split("d")
+                numStr=spl[0]
+                sideStr=spl[1]
             }
             val num=numStr?.toInt()?:1
             val sides=sideStr?.toInt()?:6
